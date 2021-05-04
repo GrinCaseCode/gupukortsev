@@ -28,7 +28,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		if ($(".menu-mobile").is(":hidden")) {
 			$(".menu-mobile").slideDown(200);
 		} else {
-			$(".menu").slideUp(200);
+			$(".menu-mobile").slideUp(200);
 		}
 		
 	});
