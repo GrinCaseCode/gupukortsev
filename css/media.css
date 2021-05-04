@@ -1,0 +1,417 @@
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  .logo img {
+    width: 185px;
+  }
+  .logo-descr {
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 4px;
+    margin-left: 15px;
+  }
+  .phones-wrap .item-contact {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .header__right {
+    padding-top: 0;
+    margin-left: -30px;
+  }
+  .header__right .btn-main {
+    top: -4px;
+  }
+  .menu > li > a {
+    font-size: 13px;
+    line-height: 17px;
+    padding: 16px 14px;
+  }
+  .market-item,
+  .market-main__info {
+    display: none;
+  }
+  .conusult-phone .item-contact {
+    font-size: 16px;
+  }
+  .market-main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.logo-descr,
+	.menu,
+  .header__right {
+   display: none;
+ }
+ .section-page {
+   padding-top: 30px;
+ }
+ .title-section {
+  font-size: 31px;
+  line-height: 41px;
+}
+.slider-billbord__image {
+  height: 270px;
+}
+.slider-billbord__title {
+  font-size: 28px;
+  line-height: 35px;
+}
+.col_announcement {
+ padding-top: 20px;
+}
+.tabs a {
+  font-size: 14px;
+}
+.tab-container__image img {
+	margin: 0 auto;
+}
+.feature-market {
+	margin-bottom: 20px;
+}
+.markets .title-middle {
+	padding-bottom: 30px;
+	padding-top: 15px;
+}
+.markets .btn-main {
+	margin-top: 25px;
+}
+.footer__center a {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+.btn_nav {
+  float: right;
+  display: inline-block;
+}
+.header .row {
+  align-items: center;
+}
+.logo img {
+  width: 145px;
+}
+.header {
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #F9F9F9;
+}
+.wrapper {
+  padding-top: 92px;
+}
+.menu-mobile {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  overflow: auto;
+  background: #F9F9F9;
+  padding-bottom: 120px;
+  display: none;
+}
+.menu-mobile .menu {
+  display: block;
+  background-color: transparent;
+}
+.menu-mobile__bottom {
+  padding: 0 15px;
+}
+.menu > li > a {
+  display: block;
+}
+.menu ul {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 0;
+  display: none;
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  opacity: 1;
+  transition: initial;
+  visibility: visible;
+}
+.tabs-market {
+  margin-bottom: 45px;
+}
+.sidebar-page {
+  margin-top: 20px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .tabs {
+   flex-wrap: wrap;
+   display: flex;
+   justify-content: center;
+ }
+ .tab-container {
+   padding-right: 22px;
+ }
+ .row_news > div {
+   margin-top: 20px;
+ }
+ .news .title-section {
+  padding-bottom: 0;
+}
+.consult-block {
+	display: block;
+}
+.consult-block {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.consult-block__right {
+	padding-top: 15px;
+}
+.title-section {
+  font-size: 28px;
+  line-height: 36px;
+}
+.title-middle {
+  font-size: 26px;
+  line-height: 34px;
+}
+.markets .title-middle {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.copyright {
+	text-align: center;
+}
+.footer__bottom {
+	text-align: center;
+}
+.footer__bottom .row > div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.slider-billbord__title {
+  font-size: 22px;
+  line-height: 31px;
+}
+.slider-billbord__image {
+  height: 200px;
+  margin-bottom: 20px;
+}
+.slider-billbord {
+  padding-bottom: 30px;
+}
+.progressBarContainer > div {
+  width: 48px;
+  margin: 0 6px;
+}
+.footer {
+	margin-top: 30px;
+}
+.footer__content {
+	padding-top: 15px;
+	display: none;
+}
+.footer__title {
+	padding: 10px 0;
+ border-bottom: 0.5px solid rgba(8, 9, 14, 0.1);
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+.footer__bottom {
+	margin-top: 10px;
+	border: none;
+}
+.footer__title i {
+	display: inline-block;
+	transition: all 0.3s;
+}
+.footer__title.active i  {
+	transform: rotate(45deg);
+}
+.market-main__flex {
+  display: block;
+}
+.sidebar-page li {
+  margin-top: 23px;
+}
+.tabs-market {
+  padding: 8px;
+  font-size: 12px;
+}
+.tabs-market li {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.tabs-market a span {
+  font-size: 15px;
+}
+.market-page .title-section {
+  padding-bottom: 22px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .logo img {
+    width: 115px;
+  }
+  .link-block {
+   padding-top: 9px;
+   padding-bottom: 9px;
+ }
+ .head-page .link-block {
+   margin-top: 10px;
+ }
+ .title-section {
+  font-size: 24px;
+  line-height: 33px;
+}
+.billbord-block {
+	margin: 0 -15px;
+}
+.slider-billbord__title {
+  font-size: 19px;
+  line-height: 26px;
+}
+.progressBarContainer > div {
+  width: 32px;
+  margin: 0 4px;
+}
+.progressBarContainer {
+	margin: 0;
+}
+.col_announcement .title-section {
+  padding-bottom: 15px;
+}
+.sidebar-announcement {
+	margin: 0 -15px;
+}
+.tabs {
+	margin: 0 -15px;
+	margin-bottom: 12px;
+}
+.tabs li {
+	width: 50%;
+}
+.tab-container {
+	margin: 0 -15px;
+	padding: 20px 20px;
+}
+.title-middle {
+  font-size: 23px;
+  line-height: 32px;
+}
+.item-news {
+	margin: 0 -15px;
+}
+.consult-block {
+	margin: 0 -15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.wrapper {
+  padding-top: 57px;
+}
+.market-main__head {
+  font-size: 14px;
+  line-height: 19px;
+  padding-bottom: 16px;
+}
+.market-main {
+  margin: 0 -15px;
+  margin-bottom: 20px;
+}
+.tab-market-wrap {
+  display: block;
+}
+.tabs-market {
+  margin: 15px 0;
+  font-size: 14px;
+  display: flex;
+}
+.tabs-market a span {
+  font-size: 17px;
+}
+.tabs-market li {
+  flex: 1;
+  margin: 0;
+}
+.feature-scheme {
+  margin-top: 15px;
+}
+.market-map {
+  margin: 0 -15px;
+}
+.sidebar-page {
+  margin: 0 -15px;
+  margin-top: 20px;
+}
+.sidebar-page li a {
+  font-size: 14px;
+  line-height: 19px;
+}
+.sidebar-page__title {
+  font-size: 16px;
+}
+.sidebar-page li {
+  margin-top: 18px;
+}
+#map-market {
+  height: 300px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .footer__content {
+   display: block !important;
+ }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .menu-mobile {
+    display: none !important;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1380px) {
+	.container {
+    max-width: 1380px;
+  }
+}
+@media (min-width: 1600px) {
+	.container {
+    max-width: 1380px;
+  }
+}
+
