@@ -1,4 +1,83 @@
-
+/*==========  Desktop First Method  ==========*/
+@media (max-width: 1380px) {
+  .market-item_1 {
+    right: 267px;
+    bottom: 83px;
+  }
+  .market-item_1 img {
+    max-width: 78px;
+  }
+  .market-item_2 {
+    right: 488px;
+    bottom: 84px; 
+  }
+  .market-item_2 img {
+    max-width: 15px;
+  }
+  .market-item_2_1 {
+    right: 472px;
+    bottom: 84px; 
+  }
+  .market-item_2_1 img {
+    max-width: 15px;
+  }
+  .market-item_3 {
+   left: 53px;
+   bottom: 212px;
+ }
+ .market-item_3 img {
+  max-width: 40px; 
+}
+.market-item_4 {
+  top: 186px;
+  left: 180px;
+}
+.market-item_4 img {
+  max-width: 31px;
+}
+.market-item_5 {
+  top: 71px;
+  left: 169px;
+}
+.market-item_5 img {
+  max-width: 57px;
+}
+.market-item_6 {
+  top: 231px;
+  left: 283px;
+}
+.market-item_6 img {
+  max-width: 31px;
+}
+.market-item_7 {
+  bottom: 153px;
+  left: 150px;
+}
+.market-item_7 img {
+  max-width: 14px;
+}
+.market-item_8 {
+  bottom: 118px;
+  left: 41px;
+}
+.market-item_8 img {
+  max-width: 28px;
+}
+.market-item_9 {
+  bottom: 166px;
+  left: 43px;
+}
+.market-item_9 img {
+  max-width: 27px;
+}
+.market-item_10 {
+  bottom: 196px;
+  right: 291px;
+}
+.market-item_10 img {
+  max-width: 58px;
+}
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
   .logo img {
