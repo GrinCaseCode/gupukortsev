@@ -19,7 +19,7 @@ body input:focus:required:invalid,
 body textarea:focus:required:invalid {
 	
 }
-body input:required:valid,
+body input:required:valid, 
 body textarea:required:valid {
 	
 }
@@ -28,7 +28,7 @@ body {
 	font-size: 14px;
 	line-height: 20px;
 	background: #F9F9F9; 
-	color: #08090E;
+	color: #08090E; 
 	overflow-x: hidden;
 	margin: 0;
 }
