@@ -29,7 +29,7 @@ body {
 	line-height: 20px;
 	background: #F9F9F9; 
 	color: #08090E; 
-	overflow-x: hidden;
+	overflow-x: hidden; 
 	margin: 0;
 }
 button {
@@ -1123,4 +1123,32 @@ transition: all 0.3s;
 	z-index: 10;
 }
 
-
+.text-main {
+	padding: 20px;
+	line-height: 24px;
+	padding-bottom: 2px;
+	background-color: #FFFFFF;
+border-radius: 20px;
+}
+.text-main p {
+	margin-bottom: 20px;
+}
+.text-main li {
+	padding-left: 32px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.text-main li::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 10px;
+	height: 10px;
+	border: 2px solid #EBD7AE;
+	border-radius: 50%;
+	top: 7px;
+	left: 8px;
+}
+.article .title-section {
+	padding-bottom: 40px;
+}

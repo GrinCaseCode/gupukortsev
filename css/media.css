@@ -19,7 +19,7 @@
     bottom: 84px; 
   }
   .market-item_2_1 img {
-    max-width: 15px;
+    max-width: 15px; 
   }
   .market-item_3 {
    left: 53px; 
@@ -445,6 +445,20 @@
 #map-market {
   height: 300px;
 }
+.text-main {
+  margin: 0 -15px;
+}
+.text-main p {
+    margin-bottom: 15px;
+}
+.text-main li::before {
+  top: 5px;
+  left: 0;
+}
+.text-main li {
+  margin-bottom: 15px;
+    padding-left: 21px;
+    }
 }
 
 /* Custom, iPhone Retina */
