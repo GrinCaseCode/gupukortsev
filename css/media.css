@@ -449,7 +449,7 @@
   margin: 0 -15px;
 }
 .text-main p {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 .text-main li::before {
   top: 5px;
@@ -457,11 +457,11 @@
 }
 .text-main li {
   margin-bottom: 15px;
-    padding-left: 21px;
-    }
-    .article .title-section {
-    padding-bottom: 25px;
+  padding-left: 21px;
 }
+.article .title-section {
+  padding-bottom: 25px;
+} 
 }
 
 /* Custom, iPhone Retina */
