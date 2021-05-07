@@ -96,6 +96,23 @@ $(".footer__title").click(function() {
 
 	//слайдер
 
+	 $('.row_news').slick({
+ 	dots: false,
+ 	arrows: false,
+ 	slidesToShow:1,
+ 	variableWidth: true,
+ 	infinite: false,
+ 	arrows: false,
+ 	slidesToScroll: 1,
+ 	mobileFirst: true,
+ 	responsive: [
+ 	{
+ 		breakpoint: 768,
+ 		settings: 'unslick'
+ 	}
+ 	]
+ });
+
 	$(".slider").slick({
 		infinite: true,
 		arrows: true,
