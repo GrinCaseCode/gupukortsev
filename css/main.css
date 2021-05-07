@@ -1157,11 +1157,12 @@ p {
 }
 .modal-wrap {
 	padding: 30px 70px;
-	padding-bottom: 50px;
+	padding-bottom: 40px;
 	width: 450px;
 	max-width: 100%;
 	    color: #08090E;
 	margin: 0 auto;
+	border-radius: 10px;
 	background: #F9F9F9;
 }
 .fancybox-skin {
