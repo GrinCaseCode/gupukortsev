@@ -1189,6 +1189,7 @@ p {
 .item-form textarea {
 	height: 110px;
 	padding-top: 15px;
+	padding-bottom: 15px;
 	resize: none;
 }
 .modal-wrap .title-middle {
